@@ -1,10 +1,13 @@
 import './App.css';
 import Header from './components/NavBar';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <Contact />
+      
       <h1>TD Freight</h1>
       <div className='introText'>
         <h2>TD Freight Is Here to Solve Your Needs!</h2>
