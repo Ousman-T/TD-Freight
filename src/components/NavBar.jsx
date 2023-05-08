@@ -1,14 +1,2 @@
-
-
-
-function Header(){
-    return(
-        <div>
-            <button>Home</button>
-            <button>About</button>
-            <button>Contact</button>
-        </div>
-    );
-};
-
-export default Header;
+import {Link, useLocation} from 'react-router-dom'
+import React from 'react'

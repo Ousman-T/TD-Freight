@@ -1,12 +1,12 @@
 import './App.css';
-import Header from './components/NavBar';
-import Contact from './components/Contact';
+
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Contact />
+
+
       
       <h1>TD Freight</h1>
       <div className='introText'>
