@@ -5,11 +5,11 @@ function Contact(){
         <div>
             <h1>Contact Page</h1>
             <form action="/contact" method="POST">
-                Name:<input type="text" name="name"/>
+                Name:<input type="text" name="Name"/>
                 <br />
-                E-Mail:<input type="text" name="E-Mail"/>
+                EMail:<input type="text" name="EMail"/>
                 <br />
-                Phone-Number:<input type="text" name="number"/>
+                PhoneNum:<input type="text" name="PhoneNum"/>
             </form>
         </div>
     );
