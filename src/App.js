@@ -1,23 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <h1>TD Freight</h1>
+      <div className='introText'>
+        <h2>TD Freight Is Here to Solve Your Needs!</h2>
+        <p>TD Freight has been in business aiming to solve all of your logistical needs for almost two years now. We take pride in our diligent effort to constantly deliver quality transportation of products from state to state!</p>
+      </div>
     </div>
   );
 }
