@@ -10,6 +10,8 @@ function Contact(){
                 EMail:<input type="text" name="EMail"/>
                 <br />
                 PhoneNum:<input type="text" name="PhoneNum"/>
+                <br />
+                <input type="submit" value='Submit Contact Info?'/>
             </form>
         </div>
     );
